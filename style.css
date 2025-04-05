@@ -1,0 +1,134 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+
+
+
+
+}
+
+ 
+ 
+
+
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1yoga.png);
+    background-position:center;
+    background-size:cover;
+    height: 102vh;
+
+} 
+.navbar{
+
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+
+}
+
+
+.menue{
+    width: 40px;
+    float: left;
+    height: 70px;
+}
+#menu1
+{float: left;
+display:flex; 
+justify-content: center;
+align-items: center;
+
+
+
+}
+ul #menuesub1{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+     
+
+  }
+ul #menuesub1 a{
+    text-decoration: none;
+    color:chartreuse;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+
+}
+ #menuesub1 a:hover{
+    color:red;
+}
+
+
+
+
+
+
+
+
+.Search-box
+{border-radius: 10px;
+margin: 200px auto;
+background: #fff;
+width: 405px;
+
+
+
+
+
+}
+.row{
+  display: flex;
+  align-items: center;
+  
+  padding: 10px 20px;
+  
+  }
+
+
+
+
+input{
+  flex: 1;
+  height:35px;
+  background: transparent;
+  border-radius: 5px;
+  
+ border: 0px;
+  outline: 0;
+  font-size: 18px;
+  color:rgb(12, 9, 6);
+
+}
+
+::placeholder
+{
+color: #555;
+}
+button{
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+ .result-box #suggest{
+  border-top: 1px solid #070505;
+  padding : 10px 10px;
+
+
+
+}
+.result-box #suggest  #result1{
+  list-style: none;
+  border-radius: none;
+  border-radius: 3px;
+  padding: 15px 10px;  
+  cursor: pointer ;
+}
+.result-box #suggest  #result1:hover{
+  background-color: rebeccapurple;
+
+}
